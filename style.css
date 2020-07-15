@@ -26,10 +26,10 @@ header {
   header > ul {
     display: flex;
     align-items: center; /* 上下中央揃え */
+    list-style: none;
   }
 
     .menu-btn {
-      list-style: none;
       color: #55b9f3;
       display: block;
       width: 11rem;

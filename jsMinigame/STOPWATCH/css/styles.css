@@ -1,0 +1,76 @@
+body {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  background:  #55b9f3;
+}
+
+.container {
+  margin: 20px auto;
+  width: 270px;
+  background:#55b9f3;
+  padding: 15px;
+  text-align: center;
+}
+
+#timer {
+  color: white;
+  background: #ffd2c7;
+  height: 120px;
+  line-height: 120px;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  /* width: 80px;
+  height: 45px;
+  line-height: 45px;
+  background: #ddd;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none; */
+  color: white;
+  display: block;
+  width: 8rem;
+  height: 4.5rem;
+  font-weight: bold;
+  /* margin-left: 2rem;
+  margin-top: 2rem; */
+  /* margin-bottom: 1rem; */
+  text-decoration: none;
+  text-align: center;
+  line-height: 4.5rem;
+  border-radius: 1rem;
+  background: #55b9f3;
+  box-shadow:  2rem 2rem 6rem #489dcf, 
+  -2rem -2rem 6rem #62d5ff;
+  /* text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(66, 66, 66, 0.38); */
+}
+
+.btn:active {
+  color: white;
+  display: block;
+  width: 8rem;
+  height: 4.5rem;
+  text-decoration: none;
+  text-align: center;
+  line-height: 4.5rem;
+  border-radius: 1rem;
+  background: linear-gradient(145deg, #4da7db, #5bc6ff);
+  box-shadow:  2rem 2rem 6rem #489dcf, 
+  -2rem -2rem 6rem #62d5ff;  
+  box-shadow: inset 20px 20px 60px #489dcf, 
+  inset -20px -20px 60px #62d5ff;
+  /* text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(136, 134, 134, 0.38); */
+}
+
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inactive {
+  opacity: 0.3;
+}
+

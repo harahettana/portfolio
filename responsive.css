@@ -1,0 +1,302 @@
+
+/*　タブレット縦 1024px以下　*/
+@media screen and (max-width: 1024px) { 
+  header {
+    width: 100%;
+  }
+
+  #header-logo {
+    margin-left: 6.5rem;
+  }
+
+  #headerBtn {
+    margin-right: 6.5rem;
+  }
+
+  .container {
+    position: relative;
+    top: 1rem;
+    width: 100%;
+    height: 1rem;
+    margin: 0 auto;
+  }
+
+  .page_top {
+    position: absolute;
+    top: 58rem;
+    left: 90rem;
+  }
+
+  #pageTop {
+    position: fixed;
+    z-index: 60;
+    color: black;
+    cursor: n-resize;
+  }
+}
+
+
+
+
+/*　スマホ横 896px以下　*/
+@media screen and (max-width: 896px) { 
+   .background img{
+     width: 100%;
+   }
+    
+   .gif {
+     position: relative;
+     top: 35rem;
+   }
+
+   .plofile {
+    position: relative;
+    top: 82rem;
+  }
+
+  .page_top {
+    position: relative;
+    top: 100rem;
+    left: 95rem;
+  }
+}
+
+
+
+
+/*　スマホ縦 480px以下　*/
+@media screen and (max-width: 480px) { 
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  header {
+    display: block;
+    width: 100%;
+    height: 8rem;
+    text-align: center;
+  }
+
+  #header-logo {
+    padding: 2.5rem;
+    margin: 0;
+  }
+  
+  ul li {
+    display: none;
+  }
+  
+  main {
+    width: 100%;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .section-ttl {
+    font-size: 2rem;
+  }
+
+  .app {
+    height: 21rem;
+  }
+
+  #app {
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
+  }
+
+  .ttl {
+    display: inline-block;
+    color: white;
+    user-select: none;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+  }
+
+  .app-items {
+    position: relative;
+    top: 6.5rem;
+  }
+
+.minigame {
+  position: relative;
+  top: 0;
+}
+
+  #minigame {
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
+  }
+
+  .mg-items {
+    position: relative;
+    top: 0;
+    height: 21.5rem;
+  }
+
+  .gif {
+    position: relative;
+    top: 0;
+  }
+
+    #gif {
+      position: absolute;
+      top: 2.5rem;
+      left: 1rem;
+      z-index: 30;
+    }
+
+    .gif-container {
+      position: relative;
+      top: -14rem;
+      width: 100%;
+    }    
+
+    #gif-02 {
+      position: relative;
+      top: 23rem;
+    }
+
+    #gif-03 {
+      position: relative;
+      top: 24rem;
+    }
+
+    #mp4-01{
+      position: relative;
+      top: 25rem;
+    }
+
+  .plofile {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+    #plofile {
+      position: relative;
+      top: 13rem;
+      left: 1rem;
+      z-index: 20;
+    }
+
+      .prof-container {
+        position: relative;
+        top: 7.5rem;
+        left: 0;
+        height: 50rem;
+      }
+
+      .prof-container p {
+        font-size: 1rem;
+        position: relative;
+        top: 8rem;
+      }
+
+  .background {
+    display: none;
+  }
+
+  .rp-background {
+    display: block;
+    text-align: center;
+  }
+
+  #rp-bg1 {
+    width: 80%;
+  }
+  
+  #rp-bg2 {
+    width: 80%;
+    position: relative;
+    top: -1rem;
+  } 
+
+  #rp-bg3 {
+    width: 80%;
+    position: relative;
+    top: -1.5rem;
+  } 
+
+  #rp-bg4 {
+    width: 80%;
+    position: relative;
+    top: -2rem;
+  } 
+
+  #rp-bg5 {
+    width: 80%;
+    position: relative;
+    top: -2.5rem;
+  } 
+
+  #rp-bg6 {
+    width: 80%;
+    position: relative;
+    top: -3rem;
+  } 
+
+  footer {
+    width: 100%;
+    height: 5.5rem;
+  }
+
+  .container2 {
+    margin: auto;
+    width: 80%;
+    height: 1rem;
+  }
+
+  #bottom-menu {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 60;
+    width: 80%;
+  }
+
+  .bottom-menu li {
+    display: block;
+  } 
+
+  .bottom-btn {
+    color: #55b9f3;
+    display: block;
+    width: 6rem;
+    height: 7rem;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 6.5rem;
+    border-radius: 1rem;
+    background: #55b9f3;
+    /* box-shadow:  2rem 2rem 6rem #489dcf, 
+    -2rem -2rem 6rem #62d5ff; */
+    text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(66, 66, 66, 0.38);
+  }
+  
+  .bottom-btn:active {
+    color: #55b9f3;
+    display: block;
+    width: 6rem;
+    height: 7rem;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 6.5rem;
+    border-radius: 1rem;
+    background: linear-gradient(145deg, #4da7db, #5bc6ff);
+    /* box-shadow:  2rem 2rem 6rem #489dcf, 
+    -2rem -2rem 6rem #62d5ff;   */
+  }
+ 
+}

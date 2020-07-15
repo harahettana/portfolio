@@ -1,0 +1,304 @@
+html {
+  font-size: 62.5%; /* 1rem -> 10px; */
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'MuseoModerno', cursive;
+  background: #55b9f3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between; /* 左右均等分布 */
+  width:  72%;
+  height: 10rem;
+  margin: auto;
+}
+
+  #header-logo {
+    padding: 2.5rem 2.5rem 2.5rem 0;
+  }
+
+  header > ul {
+    display: flex;
+    align-items: center; /* 上下中央揃え */
+  }
+
+    .menu-btn {
+      color: #55b9f3;
+      display: block;
+      width: 11rem;
+      height: 8rem;
+      font-size: 1.5rem;
+      margin-left: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      text-decoration: none;
+      text-align: center;
+      line-height: 8rem;
+      border-radius: 1rem;
+      background: #55b9f3;
+      box-shadow:  2rem 2rem 6rem #489dcf, 
+      -2rem -2rem 6rem #62d5ff;
+      text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(66, 66, 66, 0.38);
+    }
+
+    .menu-btn:active {
+      color: #55b9f3;
+      display: block;
+      width: 11rem;
+      height: 8rem;
+      /* color: white; */
+      font-size: 1.5rem;
+      margin-left: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      text-decoration: none;
+      text-align: center;
+      line-height: 8rem;
+      border-radius: 1rem;
+      background: linear-gradient(145deg, #4da7db, #5bc6ff);
+      /* background: #55b9f3;; */
+      box-shadow:  2rem 2rem 6rem #489dcf, 
+      -2rem -2rem 6rem #62d5ff;  
+      /* box-shadow: inset 20px 20px 60px #489dcf, 
+      inset -20px -20px 60px #62d5ff; */
+      text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(136, 134, 134, 0.38);
+    }
+
+.container {
+  position: relative;
+  top: 1rem;
+  width: 103.1rem;
+  height: 1rem;
+  margin: 0 auto;
+}
+
+  .section-ttl{
+    font-size: 3rem;
+    position: absolute;
+    top: 12rem;
+    left: 6.5rem;
+    z-index: 50;
+  }
+
+    .app h1 {
+      position: absolute;
+      top: 12rem;
+    }
+
+      .app-items {
+        position: relative;
+        top: 27rem;
+      }
+        
+        .app-img, .mg-img {
+          width: 100%;
+          height: 100%;
+          vertical-align: bottom;
+        }
+
+      .ttl {
+        display: inline-block;
+        color: white;
+        user-select: none;
+        position: relative;
+        top: 2rem;
+        left: 7rem;
+      }
+
+  .minigame {
+    position: relative;
+    top: 27rem;
+    z-index: 50;
+  }
+
+    .minigame h1 {
+      position: absolute;
+      top: 9rem;
+    }
+
+    .mg-items {
+      position: relative;
+      top: 14rem;
+      height: 50rem;
+    }
+
+      #typing {
+        position: relative;
+        top: 7rem;
+        z-index: 50;
+      }
+
+      #omikuji {
+        position: relative;
+        top: 7rem;
+        z-index: 50;
+      }
+
+  .gif {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    top: 48rem;
+  }
+
+    .gif h1 {
+      display: inline-block;
+      position: absolute;
+      top: 8.5rem;
+    }
+
+    .gif-container {
+      position: relative;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    #gif-01 {
+      position: relative;
+      top: 22rem;
+      width: 100%;
+      z-index: 3;
+      margin: 0 auto;
+    }
+
+    #gif-02 {
+      position: relative;
+      top: 30rem;
+      width: 100%;
+      z-index: 3;
+    }
+
+    #gif-03 {
+      position: relative;
+      top: 38rem;
+      width: 100%;
+      z-index: 3;
+    }
+
+    #mp4-01 {
+      position: relative;
+      top: 46rem;
+      width: 100%;
+      z-index: 3;
+    }
+
+  .plofile {
+    position: relative;
+    top: 95rem;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+    .plofile h1 {
+      display: inline-block;
+      position: relative;
+      top: 8rem;
+    }
+
+    .prof-container {
+      position: relative;
+      width: 87%;
+      left: -6.5rem;
+      margin: 0 auto;
+    }
+
+    .plofile p {
+      color: white;
+      position: relative;
+      top: 17rem;
+      font-size: 1.8rem;
+      background: gray;
+      opacity: 0.8;
+      border-radius: 1rem;
+      padding: 2rem 1rem 2rem 1.5rem;
+      /* letter-spacing: 1px; */
+    }
+
+  .page_top {
+    position: absolute;
+    top: 60rem;
+    left: 95rem;
+  }
+
+  #pageTop {
+    position: fixed;
+    z-index: 60;
+    color: black;
+    cursor: n-resize;
+  }
+
+.background {
+  margin: 0 auto;
+  text-align: center;
+  z-index: 0;
+}
+
+  #bg2 {
+    position: relative;
+    top: -1rem;
+  }
+
+  #bg3 {
+    position: relative;
+    top: -1.5rem;
+  }
+
+  #bg4 {
+    position: relative;
+    top: -2rem;
+  }
+
+.rp-background {
+  display: none;
+}
+
+#bottom-menu {
+  display: none;
+}
+
+/* ローディングページ用 */
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace.pace-inactive .pace-progress {
+  display: none;
+}
+
+.pace .pace-progress {
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 0;
+  height: 5rem;
+  width: 5rem;
+
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  -ms-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.pace .pace-progress:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: .5rem;
+  content: attr(data-progress-text);
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 5rem;
+  line-height: 1;
+  text-align: right;
+  color: rgba(85, 185, 243, 0.19999999999999996);
+}

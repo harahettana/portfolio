@@ -29,6 +29,7 @@ header {
   }
 
     .menu-btn {
+      list-style: none;
       color: #55b9f3;
       display: block;
       width: 11rem;

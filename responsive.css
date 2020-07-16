@@ -163,13 +163,13 @@
 
     #typing {
       position: relative;
-      top: 7rem;
+      top: 0rem;
       z-index: 50;
     }
 
     #omikuji {
       position: relative;
-      top: -9rem;
+      top: -2rem;
       z-index: 50;
     }
 

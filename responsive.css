@@ -221,8 +221,9 @@
   }
 
     #plofile {
+      font-size: 2rem;
       position: relative;
-      top: 1.5rem;
+      top: 10rem;
       left: 1rem;
       z-index: 20;
     }
@@ -232,12 +233,13 @@
         top: -6.5rem;
         left: 0;
         height: 32rem;
+        width: 93%;
       }
 
       .prof-container p {
         font-size: 1rem;
         position: relative;
-        top: 9rem;
+        top: 8rem;
         margin: 0;
       }
 
@@ -297,7 +299,7 @@
 
   #bottom-menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     position: fixed;
     bottom: 0;
     z-index: 60;

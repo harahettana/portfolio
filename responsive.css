@@ -223,7 +223,7 @@
     #plofile {
       font-size: 2rem;
       position: relative;
-      top: 10rem;
+      top: 6rem;
       left: 1rem;
       z-index: 20;
     }
@@ -239,7 +239,7 @@
       .prof-container p {
         font-size: 1rem;
         position: relative;
-        top: 8rem;
+        top: 14rem;
         margin: 0;
       }
 

@@ -139,6 +139,11 @@
       top: 7rem;
     }
 
+    # img-stopwatch {
+      position: relative;
+      top: -5rem;
+    }
+
 .minigame {
   position: relative;
   top: 0;

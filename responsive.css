@@ -112,7 +112,7 @@
 
   #app {
     position: absolute;
-    top: 0.6rem;
+    top: 1rem;
     left: 1rem;
   }
 
@@ -136,7 +136,7 @@
 
     #stopwatch {
       position: relative;
-      top: 7rem;
+      top: 8rem;
     }
 
     # img-stopwatch {

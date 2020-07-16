@@ -112,7 +112,7 @@
 
   #app {
     position: absolute;
-    top: 0.7rem;
+    top: 1rem;
     left: 1rem;
   }
 
@@ -127,11 +127,16 @@
 
   .app-items {
     position: relative;
-    top: 8rem;
+    top: 9rem;
   }
 
     #mytodo {
       position: absolute;
+    }
+
+    #stopwatch {
+      position: relative;
+      top: 8rem;
     }
 
 .minigame {
@@ -147,8 +152,8 @@
 
   .mg-items {
     position: relative;
-    top: 0;
-    height: 21.5rem;
+    top: 9.5rem;
+    height: 13.5rem;
   }
 
     #typing {
@@ -157,63 +162,83 @@
       z-index: 50;
     }
 
+    #omikuji {
+      position: relative;
+      top: -9rem;
+      z-index: 50;
+    }
+
+    #ttl-omikuji {
+      position: relative;
+      top: 0rem;
+    }
+
+      #img-omikuji {
+        position: relative;
+        top: -3rem;
+      }
+
   .gif {
     position: relative;
-    top: 0;
+    top: 10rem;
   }
 
     #gif {
       position: absolute;
-      top: 2.5rem;
+      top: 0.8rem;
       left: 1rem;
       z-index: 30;
     }
 
     .gif-container {
       position: relative;
-      top: -14rem;
       width: 100%;
     }    
 
+    #gif-01 {
+      position: relative;
+      top: 8.5rem;
+    }
+
     #gif-02 {
       position: relative;
-      top: 23rem;
+      top: 8.5rem;
     }
 
     #gif-03 {
       position: relative;
-      top: 24rem;
+      top: 8.5rem;
     }
 
     #mp4-01{
       position: relative;
-      top: 25rem;
+      top: 8.5rem;
     }
 
   .plofile {
     position: relative;
-    top: 0;
-    left: 0;
+    top: 18rem;
   }
 
     #plofile {
       position: relative;
-      top: 13rem;
+      top: 1.5rem;
       left: 1rem;
       z-index: 20;
     }
 
       .prof-container {
         position: relative;
-        top: 7.5rem;
+        top: -6.5rem;
         left: 0;
-        height: 50rem;
+        height: 32rem;
       }
 
       .prof-container p {
         font-size: 1rem;
         position: relative;
-        top: 8rem;
+        top: 9rem;
+        margin: 0;
       }
 
   .background {

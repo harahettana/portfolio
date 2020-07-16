@@ -95,7 +95,7 @@ header {
 
       .app-items {
         position: relative;
-        top: 27rem;
+        top: 28.5rem;
       }
         
         .app-img, .mg-img {
@@ -116,10 +116,19 @@ header {
         color: white;
         user-select: none;
         position: relative;
-        top: 2rem;
         left: 7rem;
         z-index: 10;
       }
+
+        #img-stopwatch {
+          position: relative;
+          top: -5rem;
+        }
+
+        #stopwatch > h2 {
+          position: relative;
+          top: -2rem;
+        }
 
   .minigame {
     position: relative;

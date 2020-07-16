@@ -6,7 +6,7 @@
   }
 
   #header-logo {
-    margin-left: 6.5rem;
+    padding-left: 1rem;
   }
 
   #headerBtn {
@@ -21,6 +21,11 @@
     margin: 0 auto;
   }
 
+  .gif {
+    position: relative;
+    top: 35rem;
+  }
+
   .page_top {
     position: absolute;
     top: 58rem;
@@ -32,6 +37,10 @@
     z-index: 60;
     color: black;
     cursor: n-resize;
+  }
+
+  #rp-bg5 {
+    display: block;
   }
 }
 
@@ -228,6 +237,7 @@
 
     #plofile {
       font-size: 2rem;
+      font-weight: normal;
       position: relative;
       top: 0rem;
       left: 1rem;

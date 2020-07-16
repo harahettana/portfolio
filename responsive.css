@@ -136,7 +136,7 @@
 
     #stopwatch {
       position: relative;
-      top: 7.5rem;
+      top: 8.5rem;
     }
 
     # img-stopwatch {
@@ -151,13 +151,13 @@
 
   #minigame {
     position: absolute;
-    top: 0rem;
+    top: 2rem;
     left: 1rem;
   }
 
   .mg-items {
     position: relative;
-    top: 7rem;
+    top: 9rem;
     height: 13.5rem;
   }
 

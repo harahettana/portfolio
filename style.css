@@ -104,9 +104,9 @@ header {
           vertical-align: bottom;
         }
 
-        #todo {
+        #img-todo {
           position: relative;
-          top: -3.3rem;
+          top: -3rem;
       }
 
       .ttl {
@@ -119,20 +119,20 @@ header {
         left: 7rem;
         z-index: 10;
       }
-
+        
         #img-stopwatch {
           position: relative;
-          top: -5rem;
+          top: -4.5rem;
         }
 
-        #stopwatch > h2 {
+        #ttl-stopwatch {
           position: relative;
-          top: -2rem;
+          top: -1.5rem;
         }
 
   .minigame {
     position: relative;
-    top: 27rem;
+    top: 21.5rem;
     z-index: 50;
   }
 
@@ -149,15 +149,30 @@ header {
 
       #typing {
         position: relative;
-        top: 7rem;
+        top: 11rem;
         z-index: 50;
       }
+
+        #img-typing {
+          position: relative;
+          top: -3rem;
+        }
 
       #omikuji {
         position: relative;
         top: 7rem;
         z-index: 50;
       }
+
+        #ttl-omikuji {
+          position: relative;
+          top: 2.3rem;
+        }
+
+        #img-omikuji {
+          position: relative;
+          top: -0.5rem;
+        }
 
   .gif {
     margin: auto;

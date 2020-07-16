@@ -66,9 +66,14 @@
 
 /*　スマホ縦 480px以下　*/
 @media screen and (max-width: 480px) { 
+  html {
+    overflow-x: hidden;
+  }
+
   body {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
   }
 
   header {
@@ -107,7 +112,7 @@
 
   #app {
     position: absolute;
-    top: 2.5rem;
+    top: 0;
     left: 1rem;
   }
 
@@ -141,6 +146,12 @@
     top: 0;
     height: 21.5rem;
   }
+
+    #typing {
+      position: relative;
+      top: 7rem;
+      z-index: 50;
+    }
 
   .gif {
     position: relative;

@@ -39,9 +39,18 @@
     cursor: n-resize;
   }
 
-  #rp-bg5 {
-    display: block;
+  .background {
+    display: none;
   }
+
+  .rp-background {
+    display: block;
+    text-align: center;
+  }
+
+  #rp-bg6 {
+    display: none;
+  } 
 }
 
 

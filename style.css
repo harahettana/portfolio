@@ -291,6 +291,10 @@ header {
     top: -2rem;
   }
 
+  #bg5 {
+    display: none;
+  }
+
 .rp-background {
   display: none;
 }

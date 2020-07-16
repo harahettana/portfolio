@@ -197,12 +197,13 @@
 
     .gif-container {
       position: relative;
+      top: -1rem;
       width: 100%;
     }    
 
     #gif-01 {
       position: relative;
-      top: 8.5rem;
+      top: 8rem;
     }
 
     #gif-02 {

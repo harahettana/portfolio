@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%; /* 1rem -> 10px; */
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
   padding: 0px;
   font-family: 'MuseoModerno', cursive;
   background: #55b9f3;
+  overflow-x: hidden;
 }
 
 header {

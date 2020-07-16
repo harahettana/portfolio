@@ -229,14 +229,14 @@
     #plofile {
       font-size: 2rem;
       position: relative;
-      top: 1rem;
+      top: 0rem;
       left: 1rem;
       z-index: 20;
     }
 
       .prof-container {
         position: relative;
-        top: -6.5rem;
+        top: -7.5rem;
         left: 0;
         height: 32rem;
         width: 93%;

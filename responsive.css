@@ -190,7 +190,7 @@
 
     #gif {
       position: absolute;
-      top: 0.8rem;
+      top: 0rem;
       left: 1rem;
       z-index: 30;
     }
@@ -229,7 +229,7 @@
     #plofile {
       font-size: 2rem;
       position: relative;
-      top: 5rem;
+      top: 1rem;
       left: 1rem;
       z-index: 20;
     }
@@ -245,7 +245,7 @@
       .prof-container p {
         font-size: 1.5rem;
         position: relative;
-        top: 13rem;
+        top: 9rem;
         margin: 0;
       }
 

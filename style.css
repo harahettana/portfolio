@@ -179,8 +179,10 @@ header {
   .gif {
     margin: auto;
     width: 100%;
+    height: 10rem;
     position: relative;
     top: 38rem;
+    margin: auto;
   }
 
     .gif h1 {
@@ -189,13 +191,22 @@ header {
       top: 6rem;
     }
 
-    .gif-container {
+    /* .gif-container {
       position: relative;
-      width: 50%;
-      margin: 0 auto;
+      width: 1031px;
+      margin: 0 auto; */
     }
 
-    #gif-01 {
+      .motion-img {
+        position: absolute;
+        z-index: 30;
+      }
+
+      .motion-img img {
+        width: 30rem;
+      }
+
+    /* #gif-01 {
       position: relative;
       top: 22rem;
       width: 100%;
@@ -222,7 +233,7 @@ header {
       top: 46rem;
       width: 100%;
       z-index: 3;
-    }
+    } */
 
   .plofile {
     position: relative;

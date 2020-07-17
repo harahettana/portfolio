@@ -206,44 +206,16 @@ header {
 
       .motion-img img {
         width: 30rem;
+        margin-bottom: 1rem;
       }
 
       #motion-img01 {
         margin-top: 22rem;
       }
 
-    /* #gif-01 {
-      position: relative;
-      top: 22rem;
-      width: 100%;
-      z-index: 3;
-      margin: 0 auto;
-    }
-
-    #gif-02 {
-      position: relative;
-      top: 30rem;
-      width: 100%;
-      z-index: 3;
-    }
-
-    #gif-03 {
-      position: relative;
-      top: 38rem;
-      width: 100%;
-      z-index: 3;
-    }
-
-    #mp4-01 {
-      position: relative;
-      top: 46rem;
-      width: 100%;
-      z-index: 3;
-    } */
-
   .plofile {
     position: relative;
-    top: 84rem;
+    top: 137rem;
     left: 0;
     margin: 0 auto;
     width: 100%;

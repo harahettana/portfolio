@@ -182,7 +182,6 @@ header {
     height: 10rem;
     position: relative;
     top: 38rem;
-    margin: auto;
   }
 
     .gif h1 {
@@ -191,15 +190,15 @@ header {
       top: 6rem;
     }
 
-    /* .gif-container {
-      position: relative;
+    .gif-container {
       width: 1031px;
-      margin: 0 auto; */
+      text-align: center;
     }
 
       .motion-img {
-        position: absolute;
+        position: relative;
         z-index: 30;
+        width: 30%;
       }
 
       .motion-img img {

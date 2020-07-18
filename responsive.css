@@ -63,10 +63,14 @@
     margin-left: 0;
   }
 
+  .section-ttl {
+    position: relative;
+    left: 3.5rem;
+  }
+  
   .app h1 {
     position: absolute;
     top: 6.5rem;
-    left: 3.5rem;
   }
 
   .app-items {
@@ -79,7 +83,6 @@
     top: 18rem;
     z-index: 50;
   }
-  
    .motion-img {
     position: relative;
     z-index: 30;

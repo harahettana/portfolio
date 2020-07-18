@@ -94,9 +94,14 @@
     top: 11rem;
   }
 
+  .gif {
+    position: relative;
+    top: 24rem;
+  }
+
   .gif-container {
     display: flex;
-    flex-direction: column;
+    align-items: center;
   }
 
    .motion-img {

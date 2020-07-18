@@ -113,7 +113,12 @@
 
    .plofile {
     position: relative;
-    top: 82rem;
+    top: 121rem;
+  }
+
+  #plofile-top {
+    position: relative;
+    left: 0;
   }
 
   .page_top {

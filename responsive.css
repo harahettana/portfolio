@@ -88,10 +88,15 @@
     position: absolute;
     top: 6.5rem;
   }
-  
+
   .mg-items {
     position: relative;
     top: 11rem;
+  }
+
+  .gif-container {
+    display: flex;
+    flex-direction: column;
   }
 
    .motion-img {

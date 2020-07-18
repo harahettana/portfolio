@@ -67,7 +67,7 @@
     position: relative;
     left: 3.5rem;
   }
-  
+
   .app h1 {
     position: absolute;
     top: 6.5rem;
@@ -83,6 +83,17 @@
     top: 18rem;
     z-index: 50;
   }
+
+  .minigame h1 {
+    position: absolute;
+    top: 6.5rem;
+  }
+  
+  .mg-items {
+    position: relative;
+    top: 11rem;
+  }
+
    .motion-img {
     position: relative;
     z-index: 30;

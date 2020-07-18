@@ -319,6 +319,7 @@ header {
   #bg4 {
     position: relative;
     top: -2rem;
+    display: none;
   }
 
   #bg5 {

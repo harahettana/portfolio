@@ -8,7 +8,8 @@
     origin: 'left', 
     distance: '2.5rem',
     reset: true,
-    mobile: true
+    mobile: true,
+    viewFactor: 0.5
   });
 
   ScrollReveal().reveal('.contents', { 
@@ -17,7 +18,8 @@
     origin: 'right', 
     distance: '180rem',
     reset: true,
-    mobile: false
+    mobile: false,
+    viewFactor: 0.5
   });
 
   ScrollReveal().reveal('.contents2', { 
@@ -25,7 +27,8 @@
     origin: 'right', 
     distance: '25rem',
     reset: true, 
-    mobile: false
+    mobile: false,
+    viewFactor: 0.5
   });
 
   ScrollReveal().reveal('.contents3', { 
@@ -34,7 +37,8 @@
     origin: 'right', 
     distance: '5rem',
     reset: true,
-    mobile: false
+    mobile: false,
+    viewFactor: 0.5
   });
 
 }

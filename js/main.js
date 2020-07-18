@@ -7,7 +7,7 @@
     duration: 800, 
     origin: 'left', 
     distance: '2.5rem',
-    reset: true,
+    reset: false,
     mobile: true
   });
 
@@ -16,7 +16,7 @@
     duration: 600, 
     origin: 'right', 
     distance: '180rem',
-    reset: true,
+    reset: false,
     mobile: false
   });
 
@@ -24,7 +24,7 @@
     duration: 900, 
     origin: 'right', 
     distance: '25rem',
-    reset: true, 
+    reset: false, 
     mobile: false
   });
 
@@ -33,7 +33,7 @@
     duration: 900, 
     origin: 'right', 
     distance: '5rem',
-    reset: true,
+    reset: false,
     mobile: false
   });
 

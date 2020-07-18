@@ -123,8 +123,11 @@
 
   .page_top {
     position: relative;
-    top: 100rem;
-    left: 95rem;
+    left: 73rem;
+  }
+
+  #pageTop  {
+    bottom: 2rem;
   }
 
   .background img{

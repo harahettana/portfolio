@@ -39,7 +39,7 @@
 
   #pageTop {
     position: fixed;
-    bottom: 5rem;
+    bottom: 7rem;
     z-index: 60;
     color: black;
     cursor: n-resize;
@@ -51,6 +51,14 @@
 
 /*　スマホ横 896px以下　*/
 @media screen and (max-width: 896px) { 
+  #headerBtn  {
+    padding-right: 6.5rem;
+  }
+
+  ..menu-btn {
+    margin-left: 0;
+  }
+  
    .background img{
      width: 100%;
    }

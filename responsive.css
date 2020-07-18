@@ -50,23 +50,19 @@
 
 
 /*　スマホ横 896px以下　*/
-@media screen and (max-width: 896px) { 
-  #headerBtn  {
-    padding-right: 6.5rem;
-  }
-
-  ..menu-btn {
+@media screen and (max-width: 896px) {
+  .menu-btn {
     margin-left: 0;
   }
-  
+
    .background img{
      width: 100%;
    }
-    
-   .gif {
-     position: relative;
-     top: 35rem;
-   }
+
+   .motion-img {
+    position: relative;
+    z-index: 30;
+  }
 
    .plofile {
     position: relative;

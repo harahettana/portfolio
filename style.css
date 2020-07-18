@@ -73,6 +73,10 @@ header {
       text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(136, 134, 134, 0.38);
     }
 
+.pace-running main {
+  display:none;
+}
+
 .container {
   position: relative;
   top: 1rem;

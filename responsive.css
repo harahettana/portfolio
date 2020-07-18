@@ -130,6 +130,10 @@
   .background img{
     width: 100%;
   }
+
+  #bg4 {
+    display: block;
+  }
 }
 
 

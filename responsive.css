@@ -100,14 +100,15 @@
   }
 
   .gif-container {
-    width
-    display: flex;
+    width: 100%;
+    /* display: flex; */
     align-items: center;
   }
 
    .motion-img {
     position: relative;
     z-index: 30;
+    width: 30rem;
   }
 
    .plofile {

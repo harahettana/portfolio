@@ -54,10 +54,6 @@ body {
     color: rgba(85, 185, 243, 0.19999999999999996);
   }
 
-  .pace-running .wrap {
-    display:none;
-  }
-
 header {
   display: flex;
   justify-content: space-between; /* 左右均等分布 */

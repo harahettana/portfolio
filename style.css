@@ -13,6 +13,47 @@ body {
   overflow-x: hidden;
 }
 
+/* ローディングページ用 */
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace.pace-inactive .pace-progress {
+  display: none;
+}
+
+.pace .pace-progress {
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 0;
+  height: 5rem;
+  width: 5rem;
+
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  -ms-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.pace .pace-progress:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: .5rem;
+  content: attr(data-progress-text);
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  font-size: 5rem;
+  line-height: 1;
+  text-align: right;
+  color: rgba(85, 185, 243, 0.19999999999999996);
+}
+
 header {
   display: flex;
   justify-content: space-between; /* 左右均等分布 */
@@ -72,10 +113,6 @@ header {
       inset -20px -20px 60px #62d5ff; */
       text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(136, 134, 134, 0.38);
     }
-
-.pace-running main {
-  display:none;
-}
 
 .container {
   position: relative;
@@ -296,43 +333,3 @@ header {
   display: none;
 }
 
-/* ローディングページ用 */
-.pace {
-  -webkit-pointer-events: none;
-  pointer-events: none;
-
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-}
-
-.pace.pace-inactive .pace-progress {
-  display: none;
-}
-
-.pace .pace-progress {
-  position: fixed;
-  z-index: 2000;
-  top: 0;
-  right: 0;
-  height: 5rem;
-  width: 5rem;
-
-  -webkit-transform: translate3d(0, 0, 0) !important;
-  -ms-transform: translate3d(0, 0, 0) !important;
-  transform: translate3d(0, 0, 0) !important;
-}
-
-.pace .pace-progress:after {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: .5rem;
-  content: attr(data-progress-text);
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: 100;
-  font-size: 5rem;
-  line-height: 1;
-  text-align: right;
-  color: rgba(85, 185, 243, 0.19999999999999996);
-}

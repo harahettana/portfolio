@@ -51,14 +51,35 @@
 
 /*　スマホ横 896px以下　*/
 @media screen and (max-width: 896px) {
+  #header-logo {
+    margin-left: 3.5rem;
+  }
+
+  #headerBtn {
+    margin-right: 3.5rem;
+  }
+
   .menu-btn {
     margin-left: 0;
   }
 
-   .background img{
-     width: 100%;
-   }
+  .app h1 {
+    position: absolute;
+    top: 6.5rem;
+    left: 3.5rem;
+  }
 
+  .app-items {
+    position: relative;
+    top: 22.5rem;
+  }
+
+  .minigame {
+    position: relative;
+    top: 18rem;
+    z-index: 50;
+  }
+  
    .motion-img {
     position: relative;
     z-index: 30;
@@ -73,6 +94,10 @@
     position: relative;
     top: 100rem;
     left: 95rem;
+  }
+
+  .background img{
+    width: 100%;
   }
 }
 

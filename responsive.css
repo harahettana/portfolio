@@ -162,7 +162,7 @@
   }
 
   #header-logo {
-    padding: 2.5rem;
+    padding: 2.5rem 0;
     margin: 0;
   }
   
@@ -299,9 +299,9 @@
       top: 8.5rem;
     }
 
-  .plofile {
+  #plofile-top {
     position: relative;
-    top: 18rem;
+    top: 93rem;
   }
 
     #plofile {
@@ -322,7 +322,7 @@
       }
 
       .prof-container p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         position: relative;
         top: 8rem;
         margin: 0;
